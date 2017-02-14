@@ -1,0 +1,25 @@
+{
+  "name": "nafarlee.github.io",
+  "version": "1.0.0",
+  "description": "Website experiments",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nafarlee/nafarlee.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nafarlee/nafarlee.github.io/issues"
+  },
+  "homepage": "https://github.com/nafarlee/nafarlee.github.io#readme",
+  "devDependencies": {
+    "eslint": "^3.15.0",
+    "eslint-config-standard": "^6.2.1",
+    "eslint-plugin-promise": "^3.4.1",
+    "eslint-plugin-standard": "^2.0.1"
+  }
+}
