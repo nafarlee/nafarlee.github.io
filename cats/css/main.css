@@ -56,16 +56,47 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+html, body {
+  background-color: #efe3e3;
+  width: 100%;
+  min-height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: space-between;
+  overflow: auto;
+}
 
+img, textarea {
+  height: 30ex;
+  padding: 1ex;
+  margin: 1ex;
+}
 
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1ex;
+}
 
+button:hover {
+  color: #ef5353;
+}
 
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 1ex;
+}
 
-
-
-
-
-
+@media only screen and (max-width: 850px) {
+  .center {
+    flex-direction: column;
+    justify-content: space-around;
+  }
+}
 
 
 
